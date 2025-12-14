@@ -51,17 +51,17 @@ Enter a two-digit number where the first digit represents the **Row** and the se
 ### Console Output Example
 
 The board is displayed with a simple grid structure:
-
-+---+---+---+\n
-| X |   | O |\n
-+---+---+---+\n
-|   | X |   |\n
-+---+---+---+\n
-|   |   | O |\n
-+---+---+---+\n
-Va el jugador X\n 
+```
++---+---+---+
+| X |   | O |
++---+---+---+
+|   | X |   |
++---+---+---+
+|   |   | O |
++---+---+---+
+Va el jugador X
 Donde vas a jugar: 12
-
+```
 ## 📐 Code Structure
 
 The game logic is organized using clear static methods within `SegundoIntento.java`:
