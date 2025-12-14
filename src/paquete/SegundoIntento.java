@@ -57,6 +57,7 @@ public class SegundoIntento {
 				return true;
 		}
 		 
+		
 		//Diagonales
 	    if (tablero[0][0] != 0 &&tablero[0][0] == tablero[1][1] &&tablero[0][0] == tablero[2][2])
 	        return true;
