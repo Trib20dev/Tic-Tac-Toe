@@ -71,4 +71,4 @@ The game logic is organized using clear static methods within `SegundoIntento.ja
 | `main` | **Game Driver** | Manages the primary game loop, handles player input/output, and switches turns. |
 | `imprimirTablero` | **Renderer** | Takes the internal 3x3 array and prints the formatted `X`, `O`, and border characters to the console. |
 | `gano` | **Win Checker** | Contains the core logic for checking three-in-a-row horizontally, vertically, and diagonally. |
-| `completado` | **Draw Checker** | Iterates through the board to ensure no empty
+| `completado` | **Draw Checker** | Iterates through the board to ensure no empty slots remain |
